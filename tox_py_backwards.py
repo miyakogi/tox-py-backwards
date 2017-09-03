@@ -23,7 +23,7 @@ mkdir .tox/py_backwards/
 cp -a * .tox/py_backwards/
 cd .tox/py_backwards/
 {0}
-pip install -q -U .
+pip install -q -I --no-deps .
 {1}
 rm -rf .tox/py_backwards/
 '''  # noqa: E501
